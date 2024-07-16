@@ -1,0 +1,149 @@
+body {
+    margin: 0;
+    max-width: 100%;
+}
+
+
+@media only screen and (max-width:600px) {
+main {
+    margin: 0rem 2rem 0;
+}
+    
+h1 {
+    font-family: "basic-sans", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 350%;
+    text-align: center;
+}
+
+nav{
+    background-color: #133eb4;
+}
+nav ul{
+    font-family: "basic-sans", sans-serif;
+    margin: 0 auto;
+    padding: 0 2vw;
+    list-style-type: none;
+}
+
+nav a{
+    font-family: "basic-sans", sans-serif;
+    display: block;
+    padding: .8rem;
+    text-decoration: none;
+    font-weight: 700;
+    text-transform: capitalize;
+    text-align: center;
+    color: white;
+}
+
+nav li.active a {
+    background-color: #8C501B;
+    color: #ffffff;
+    background-image: linear-gradient(to bottom, #C69749, #735F32);
+}
+
+div.gallery {
+    display: grid;
+    grid-template-columns: repeat(1, 100%);
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+}
+
+
+@media only screen and (min-width:601px) {
+main {
+    margin: 3rem 4rem;
+}   
+
+h1 {
+    font-family: "basic-sans", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 250%;
+    margin: 1rem 5rem 2rem 0;
+}
+    
+
+nav{
+    background-color: #133eb4;
+}
+nav ul{
+    font-family: "basic-sans", sans-serif;
+    list-style-type: none;
+    padding: 0rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: white;
+    font-weight: 700;
+    display: flex;
+    padding: 1rem 2rem;
+    text-align: center;
+}
+
+nav a:hover {
+    color: #FFFFFF;
+}
+
+nav li.active a{
+    background-color: #735F32;
+    color: #FFFFFF;
+
+}    
+    div.gallery {
+        display: grid;
+        grid-template-columns: repeat(4, 25%);
+        margin: 0;
+        padding: 0;
+    }
+    
+
+}
+
+
+div.gallery img{
+    justify-self: center;
+}
+
+div.gallery figcaption{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: .3rem;
+    color: #FFF;
+    text-decoration: none;
+    font-family: "basic-sans", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+body {
+    background-color: #000000;
+    color: #FFF;
+    text-decoration: none;
+    font-family: "basic-sans", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+footer {
+    background-color: #144fef;
+    font-family: "basic-sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #FFF;
+    padding: 1rem 2vw;
+    text-align: center;
+    margin: 0;
+    clear: both;
+}
